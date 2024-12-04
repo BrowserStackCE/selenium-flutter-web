@@ -1,0 +1,22 @@
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
+
+projectName: Flutter Web Automation 
+buildName: flutter-web-test-build
+buildIdentifier: '#${BUILD_NUMBER}'
+
+platforms:
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+
+browserstackLocal: true 
+
+debug: true 
+networkLogs: false 
+consoleLogs: errors 
